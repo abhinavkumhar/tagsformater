@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tags Formatter - By Abhinav</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Tags Formatter</h1>
+    <textarea id="inputText" placeholder="Enter tags here..." rows="5"></textarea>
+    <button onclick="formatTags()">Format Tags</button>
+    <div id="outputContainer" class="output-container">
+      <div id="outputText" class="output-area" style="display: none;"></div>
+      <button id="copyButton" class="copy-button" style="display: none;">Copy to Clipboard</button>
+    </div>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+</html>
